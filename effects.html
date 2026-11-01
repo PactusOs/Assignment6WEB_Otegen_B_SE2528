@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Effects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">jQuery</div>
+            <nav>
+                <a href="index.html">Basics</a>
+                <a href="effects.html" class="active">Effects</a>
+                <a href="dom.html">DOM</a>
+                <a href="animations.html">Animations</a>
+                <a href="project.html">Accordion</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>jQuery Effects</h1>
+        <section class="card">
+            <h2>Visibility Methods</h2>
+            <div class="buttons">
+                <button id="hideText">Hide</button>
+                <button class="blue" id="showText">Show</button>
+                <button class="blue" id="toggleText">Toggle</button>
+            </div>
+            <div class="demo">
+                <p id="visibilityText">This paragraph can be hidden and shown.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Fade Methods</h2>
+            <div class="buttons">
+                <button id="fadeOut">Fade Out</button>
+                <button class="blue" id="fadeIn">Fade In</button>
+                <button class="blue" id="fadeToggle">Fade Toggle</button>
+            </div>
+            <img id="fadeImage" class="demo-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Scorpion_Image.jpg/960px-Scorpion_Image.jpg" alt="Scorpion">
+        </section>
+
+        <section class="card">
+            <h2>Slide Methods</h2>
+            <div class="buttons">
+                <button id="slideUp">Slide Up</button>
+                <button class="blue" id="slideDown">Slide Down</button>
+                <button class="blue" id="slideToggle">Slide Toggle</button>
+            </div>
+            <div id="slidePanel" class="demo">
+                <p>This panel expands and collapses.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

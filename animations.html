@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">jQuery</div>
+            <nav>
+                <a href="index.html">Basics</a>
+                <a href="effects.html">Effects</a>
+                <a href="dom.html">DOM</a>
+                <a href="animations.html" class="active">Animations</a>
+                <a href="project.html">Accordion</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>jQuery Animations</h1>
+        <section class="card">
+            <h2>Basic Animation</h2>
+            <div class="buttons">
+                <button id="basicAnimate">Animate</button>
+                <button class="blue" id="basicReset">Reset</button>
+            </div>
+            <div class="stage">
+                <div id="basicBox" class="square"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Sequential Animations</h2>
+            <div class="buttons">
+                <button id="sequenceAnimate">Run Sequence</button>
+            </div>
+            <div class="stage">
+                <div id="sequenceBox" class="square red"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Combined Animation</h2>
+            <div class="buttons">
+                <button id="combinedAnimate">Animate Together</button>
+                <button class="blue" id="combinedReset">Reset</button>
+            </div>
+            <div class="stage">
+                <div id="combinedBox" class="square"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

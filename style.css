@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: #080808;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+header {
+    background: #111111;
+    padding: 18px 0;
+}
+.brand {
+    margin-bottom: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #e04455;
+}
+nav, .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+nav a {
+    color: #eeeeee;
+    background: #242424;
+    padding: 8px 13px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a:hover, nav a.active {
+    background: #bd3044;
+    color: white;
+}
+main {
+    padding: 28px 0 48px;
+}
+h1 {
+    font-size: 30px;
+    margin: 0 0 25px;
+}
+.card {
+    background: #171717;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 7px;
+}
+.card h2 {
+    margin: 0 0 14px;
+    font-size: 21px;
+}
+.buttons {
+    margin: 14px 0;
+}
+button {
+    background: #bd3044;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover {
+    background: #dc4358;
+}
+button.blue {
+    background: #286bac;
+}
+button.blue:hover {
+    background: #3486d4;
+}
+.demo {
+    background: #222222;
+    padding: 15px;
+    border-radius: 5px;
+}
+.demo p {
+    margin: 8px 0;
+}
+.demo h4 {
+    margin: 8px 0;
+}
+.card a {
+    color: #5caff9;
+}
+.demo-image {
+    display: block;
+    width: 360px;
+    max-width: 100%;
+    height: 240px;
+    object-fit: contain;
+    background: #222222;
+    border-radius: 5px;
+}
+#slidePanel, .accordion-content {
+    display: none;
+}
+input {
+    display: block;
+    width: 100%;
+    max-width: 430px;
+    padding: 10px;
+    margin: 5px 0 14px;
+    border: 1px solid #4b4b4b;
+    border-radius: 5px;
+    background: #242424;
+    color: white;
+}
+.stage {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    padding: 12px;
+    background: #222222;
+    border-radius: 5px;
+}
+.square {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background: #3486d4;
+    border-radius: 5px;
+}
+.square.red {
+    background: #bd3044;
+}
+.accordion-title {
+    width: 100%;
+    display: block;
+    margin-top: 8px;
+    text-align: left;
+    background: #292929;
+}
+.accordion-title:hover {
+    background: #393939;
+}
+.accordion-content {
+    padding: 14px;
+    background: #222222;
+    border-radius: 0 0 5px 5px;
+}
+.accordion-content p {
+    margin: 0;
+}

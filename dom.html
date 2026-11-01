@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="brand">jQuery</div>
+            <nav>
+                <a href="index.html">Basics</a>
+                <a href="effects.html">Effects</a>
+                <a href="dom.html" class="active">DOM</a>
+                <a href="animations.html">Animations</a>
+                <a href="project.html">Accordion</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>DOM Manipulation</h1>
+        <section class="card">
+            <h2>Add and Remove Elements</h2>
+            <div class="buttons">
+                <button id="addItem">Add Item</button>
+                <button class="blue" id="prependItem">Add to Start</button>
+                <button class="blue" id="removeItem">Remove Item</button>
+            </div>
+            <div class="demo">
+                <ul id="itemList">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Modifying Attributes</h2>
+            <div class="buttons">
+                <button id="changeImage">Change Image</button>
+                <button class="blue" id="changeLink">Change Link</button>
+            </div>
+            <img id="attributeImage" class="demo-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/PHONE.jpg/960px-PHONE.jpg" alt="Mobile phones">
+            <p><a id="resourceLink" href="https://www.w3schools.com/jquery/" target="_blank" rel="noopener noreferrer">W3Schools jQuery Tutorial</a></p>
+        </section>
+
+        <section class="card">
+            <h2>Form Interaction</h2>
+            <form id="liveForm">
+                <label for="nameInput">Name</label>
+                <input id="nameInput" type="text" placeholder="Enter your name">
+                <label for="emailInput">Email</label>
+                <input id="emailInput" type="email" placeholder="Enter your email">
+            </form>
+            <div class="demo">
+                <p>Name: <strong id="liveName"></strong></p>
+                <p>Email: <strong id="liveEmail"></strong></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
